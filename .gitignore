@@ -1,0 +1,8 @@
+*.class
+/.recommenders/
+<<<<<<< HEAD
+/RemoteSystemsTempFiles/
+=======
+/RemoteSystemsTempFiles/
+>>>>>>> first commit
+/.metadata/
