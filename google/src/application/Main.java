@@ -7,13 +7,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 public class Main extends Application {
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			// BorderPane root = new BorderPane();
-			Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
-			Scene scene = new Scene(root, 400, 400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			Parent root = FXMLLoader.load(Class.forName("application.Main").getResource("main.fxml"));
+			Scene scene = new Scene(root, 140, 50);
+			scene.getStylesheets().add(Class.forName("application.Main").getResource("application.css").toExternalForm());
 			primaryStage.setTitle("구이");
 			primaryStage.setScene(scene);
 			primaryStage.show();
