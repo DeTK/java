@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="google.jnlp">
+  <information>
+    <title>google</title>
+    <vendor>user</vendor>
+    <description>googlesearch</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="google.jar" size="4834" download="eager" />
+    <jar href="libs\animal-sniffer-annotations-1.14.jar" size="3482" download="eager" />
+    <jar href="libs\byte-buddy-1.8.15.jar" size="2987269" download="eager" />
+    <jar href="libs\checker-compat-qual-2.0.0.jar" size="31547" download="eager" />
+    <jar href="libs\commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="libs\commons-exec-1.3.jar" size="54423" download="eager" />
+    <jar href="libs\commons-io-2.5.jar" size="208700" download="eager" />
+    <jar href="libs\commons-lang3-3.4.jar" size="434678" download="eager" />
+    <jar href="libs\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="libs\cssparser-0.9.20.jar" size="378447" download="eager" />
+    <jar href="libs\error_prone_annotations-2.1.3.jar" size="13704" download="eager" />
+    <jar href="libs\guava-25.0-jre.jar" size="2738171" download="eager" />
+    <jar href="libs\htmlunit-2.23.jar" size="1887645" download="eager" />
+    <jar href="libs\htmlunit-core-js-2.23.jar" size="1217828" download="eager" />
+    <jar href="libs\htmlunit-driver-2.23.jar" size="64760" download="eager" />
+    <jar href="libs\httpcore-4.4.4.jar" size="326724" download="eager" />
+    <jar href="libs\httpmime-4.5.2.jar" size="41029" download="eager" />
+    <jar href="libs\j2objc-annotations-1.1.jar" size="8782" download="eager" />
+    <jar href="libs\javax.servlet-api-3.1.0.jar" size="95806" download="eager" />
+    <jar href="libs\jcip-annotations-1.0.jar" size="2254" download="eager" />
+    <jar href="libs\jcommander-1.48.jar" size="63504" download="eager" />
+    <jar href="libs\jsoup-1.11.3.jar" size="395748" download="eager" />
+    <jar href="libs\jsr305-1.3.9.jar" size="33015" download="eager" />
+    <jar href="libs\neko-htmlunit-2.23.jar" size="125105" download="eager" />
+    <jar href="libs\okhttp-3.11.0.jar" size="413639" download="eager" />
+    <jar href="libs\okio-1.14.0.jar" size="85756" download="eager" />
+    <jar href="libs\sac-1.3.jar" size="15808" download="eager" />
+    <jar href="libs\selenium-api-3.141.59.jar" size="182089" download="eager" />
+    <jar href="libs\selenium-chrome-driver-3.141.59.jar" size="13741" download="eager" />
+    <jar href="libs\selenium-edge-driver-3.141.59.jar" size="8033" download="eager" />
+    <jar href="libs\selenium-firefox-driver-3.141.59.jar" size="810396" download="eager" />
+    <jar href="libs\selenium-ie-driver-3.141.59.jar" size="17220" download="eager" />
+    <jar href="libs\selenium-java-3.141.59.jar" size="355" download="eager" />
+    <jar href="libs\selenium-opera-driver-3.141.59.jar" size="10799" download="eager" />
+    <jar href="libs\selenium-remote-driver-3.141.59.jar" size="333950" download="eager" />
+    <jar href="libs\selenium-safari-driver-3.141.59.jar" size="15935" download="eager" />
+    <jar href="libs\selenium-server-3.0.1.jar" size="494480" download="eager" />
+    <jar href="libs\selenium-support-3.141.59.jar" size="151127" download="eager" />
+    <jar href="libs\serializer-2.7.2.jar" size="276420" download="eager" />
+    <jar href="libs\snakeyaml-1.15.jar" size="269295" download="eager" />
+    <jar href="libs\xercesImpl-2.11.0.jar" size="1367760" download="eager" />
+    <jar href="libs\xml-apis-1.4.01.jar" size="220536" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.Main"  name="googlesearch" />
+  <update check="background"/>
+</jnlp>
